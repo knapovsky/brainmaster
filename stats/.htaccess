@@ -1,0 +1,7 @@
+AuthName "brainmaster.knapovsky.com statistics"
+AuthType Basic
+AuthUserFile /home/knapovsky/domains/brainmaster.knapovsky.com/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>

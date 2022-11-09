@@ -1,0 +1,654 @@
+@charset "utf-8";/* CSS Document body */
+table {
+    margin: auto;
+}
+#gameWindow {
+    margin: 0 auto;
+    position: relative;
+    width: 370px;
+}
+#progressBarWrapper {
+    margin: 12px auto auto;
+    text-shadow: 2px 2px 2px #000000;
+}
+#progressBarName {
+    left: 5px;
+    position: absolute;
+    text-align: left;
+    text-shadow: 1px 1px 1px #000000;
+    top: 13px;
+    width: 90px;
+}
+#progressBarMessage {
+    left: 80px;
+    position: absolute;
+    text-align: center;
+    text-shadow: 1px 1px 1px #000000;
+    top: 13px;
+    width: 195px;
+}
+#progressBarValue {
+    left: 280px;
+    position: absolute;
+    text-align: right;
+    text-shadow: 1px 1px 1px #000000;
+    top: 13px;
+    width: 75px;
+}
+#body {
+}
+#screen {
+    /*height: 768px;*/
+}
+#game_template {
+    height: 485px;
+    margin: 5px auto;
+    width: 768px;
+}
+#main {
+    height: 665px;
+    margin: auto;
+    width: 768px;
+}
+#header {
+    height: 55px;
+    margin: auto;
+    width: 768px;
+}
+#log_out {
+    background-color: #5297D2;
+    border: 2px solid #326FA3;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    display: none;
+    float: right;
+    height: 49px;
+    margin: auto;
+    position: relative;
+    width: 155px;
+    z-index: 1002;
+}
+#logo {
+    background-image: url("../img/logo.png");
+    height: 93px;
+    margin: -10px auto auto;
+    position: relative;
+    width: 386px;
+}
+#left {
+    background-color: #5297D2;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    float: left;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    width: 155px;
+}
+#center {
+    background-color: #FFA8B3;
+    border: 2px solid #F45C6F;
+    border-radius: 20px 20px 20px 20px;
+    float: left;
+    height: 480px;
+    margin: 0 auto auto 12px;
+    position: relative;
+    width: 425px;
+}
+#right {
+    background-color: #5297D2;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    float: right;
+    height: 480px;
+    margin: 0 auto;
+    position: relative;
+    width: 155px;
+}
+#footer {
+    clear: both;
+    height: 60px;
+    margin: 0 auto;
+    position: relative;
+    width: 767px;
+}
+#game_type {
+    background-color: #ACCDE9;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    font-family: Arial,Helvetica,sans-serif;
+    height: 195px;
+    margin: auto;
+    width: 140px;
+}
+#path_fin {
+    height: 16px;
+    padding-top: 10px;
+    width: 140px;
+    cursor: pointer;
+}
+#path_ico {
+    background-image: url("../img/path.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+#color_chal {
+    height: 16px;
+    text-align: center;
+    width: 140px;
+    cursor: pointer;
+}
+#color_ico {
+    background-image: url("../img/color.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+.radio_path {
+    float: left;
+}
+#choose_path {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#choose_color {
+    margin-left: 10px;
+}
+.radio_color {
+    float: left;
+}
+.choose_selection {
+    margin-top: 3px;
+}
+#difficulty {
+    background-color: #ACCDE9;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    height: 220px;
+    margin: auto;
+    width: 140px;
+}
+#easy {
+    background-image: url("../img/easy.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70px;
+    margin: 6px auto auto;
+    width: 140px;
+    cursor: pointer;
+}
+#normal {
+    background-image: url("../img/normal.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+#insane {
+    background-image: url("../img/insane.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 140px;
+    cursor: pointer;
+}
+.radio_dif {
+    float: left;
+    margin: 25px 0 25px 12px;
+}
+#control {
+    background-color: #ACCDE9;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    height: 372px;
+    margin: auto;
+    width: 140px;
+}
+#user {
+    background-color: #ACCDE9;
+    border: 2px solid #326FA3;
+    border-radius: 15px 15px 15px 15px;
+    height: 43px;
+    margin: auto;
+    width: 140px;
+}
+#key_ico {
+    background-image: url("../img/klavesky.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 140px;
+    cursor: pointer;
+}
+#mouse_ico {
+    background-image: url("../img/myska.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 140px;
+    cursor: pointer;
+}
+#key_radio {
+    height: 16px;
+    width: 140px;
+    cursor: pointer;
+}
+#mouse_radio {
+    height: 16px;
+    width: 140px;
+    cursor: pointer;
+}
+.radio_key {
+    float: left;
+    margin: 6px 0 15px 12px;
+}
+.radio_mouse {
+    float: left;
+    margin: 6px 0 15px 12px;
+}
+#choosed_game {
+    border: medium none;
+    height: 300px;
+    margin: auto;
+}
+h1, h2, h3 {
+    color: black;
+    font-family: "corbel",Arial;
+    margin: auto;
+}
+h1 {
+    color: black;
+    font: bold 22px "corbel";
+    margin-top: -4px;
+    text-align: center;
+}
+h2 {
+    color: black;
+    font: bold 18px "corbel";
+    text-align: center;
+}
+h3 {
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    text-align: left;
+}
+h5 {
+    color: white;
+    font-family: Arial,Helvetica,sans-serif;
+    margin: auto;
+    text-align: center;
+}
+#newGame {
+    left: 300px;
+    position: fixed;
+    top: 150px;
+}
+#dragit {
+    display: none;
+    left: 10px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+}
+#hand {
+    background-image: url("../img/hand.png");
+    height: 37px;
+    width: 37px;
+}
+#dragtext {
+    left: 40px;
+    position: absolute;
+    top: 8px;
+}
+.window1 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px 20px 20px 20px;
+    height: 480px;
+    margin: 65px auto auto 164px;
+    padding-left: 10px;
+    position: absolute;
+    width: 430px;
+    z-index: 1001;
+}
+.window2 {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px 10px 10px 10px;
+    height: 335px;
+    margin: 72px auto auto 164px;
+    width: 440px;
+    z-index: 1001;
+}
+#overlay {
+    background-color: black;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.85;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 998;
+}
+#survey {
+    display: none;
+    margin: 0px auto auto 162px;
+    position: absolute;
+}
+#sur_info {
+    height: 70px;
+    margin: 5px auto;
+}
+#sur_toFill {
+    height: 275px;
+}
+.sur_div {
+    height: 22px;
+    width: 440px;
+}
+#pohlavi {
+    float: right;
+    margin: 20px 130px auto 0;
+}
+#age_text {
+    float: right;
+    margin: 10px 131px auto 0;
+}
+#hodnoceni {
+    float: right;
+    margin: 10px 140px auto 0;
+}
+#gender_sel_lab, #age_text_lab, #GUI_sel_lab {
+    float: right;
+    height: 22px;
+    margin: 10px 10px auto;
+}
+#sur_ideas {
+    height: 180px;
+    margin: 20px auto;
+}
+#navrhy {
+    height: 80px;
+    margin: 15px auto auto 10px;
+    position: relative;
+    width: 415px;
+}
+.sur_send {
+    float: left;
+    margin: 10px auto auto 193px;
+}
+#score {
+    display: none;
+    margin: 0 auto auto 162px;
+    position: absolute;
+    z-index: 999;
+}
+#top_ten {
+    height: 300px;
+    margin: auto;
+    width: 320px;
+}
+.sc_tr {
+    border-bottom: 1px solid black;
+}
+.sc_score {
+    float: right;
+}
+#survey_request {
+    height: 60px;
+    margin: 10px auto;
+    width: 320px;
+}
+.sc_close {
+    float: left;
+    margin: 10px auto auto 134px;
+}
+#reg_send {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    display: none;
+    height: 130px;
+    margin: 173px auto auto 133px;
+    /*opacity: 0.85;*/
+    position: absolute;
+    width: 500px;
+    z-index: 1001;
+}
+.reg_close {
+    float: left;
+    margin: auto auto 25px 225px;
+}
+#reg {
+    display: none;
+    margin: 0 auto auto 162px;
+    position: absolute;
+    z-index: 999;
+}
+#reg_info {
+    margin: auto auto 30px;
+}
+.regFont_toFill, .font_toFill {
+    font-family: Corbel;
+    font-size: 16pt;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+}
+.regFont_toFill {
+    float: right;
+    font-stretch: normal;
+    font-style: oblique;
+    margin: 4px 20px auto auto;
+}
+.reg_toFill_Div {
+    height: 22px;
+    margin: 10px auto;
+    position: relative;
+    width: 440px;
+}
+.reg_field {
+    float: right;
+    margin: 4px 100px auto 0;
+}
+.button_register {
+    float: right;
+    margin: 30px 190px auto auto;
+}
+#login {
+    display: none;
+    margin: 0 auto auto 162px;
+    position: absolute;
+    z-index: 999;
+}
+.log a{
+	text-decoration: none;
+}
+.logout a{
+	text-decoration: none;
+}
+#log_toFill {
+    float: right;
+    height: 130px;
+    margin: 0 auto;
+    width: 440px;
+}
+#login_email, #login_pass {
+    height: 35px;
+    width: 440px;
+}
+#log_mail_lab, #log_pass_lab {
+    float: right;
+    margin: 10px 10px auto;
+}
+#log_mail, #log_pass {
+    float: right;
+    margin: 10px 80px auto 5px;
+}
+#wannaRegister {
+    height: 35px;
+    margin: 25px auto;
+    width: 440px;
+}
+#log_but {
+    float: right;
+    margin: 10px 187px auto auto;
+}
+#start {
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 15px 15px 15px 15px;
+    display: none;
+    height: 150px;
+    margin: 164px auto auto 255px;
+    opacity: 0.75;
+    position: absolute;
+    width: 255px;
+    z-index: 999;
+    cursor: pointer;
+}
+#start_img {
+    background-image: url("../img/start.png");
+    height: 45px;
+    margin: 52px auto;
+    width: 199px;
+}
+.choose_label {
+    color: black;
+    font-family: Arial,Helvetica,sans-serif;
+}
+#login_name {
+    font-family: Arial,Helvetica,sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+    top: 10px;
+    width: 100%;
+}
+#control div {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#keyboard {
+	position: relative;
+	left: -7px;
+	top: 3px;
+    /*text-align: left;*/
+    font-size: 14px;
+}
+#mouse{
+	position: relative;
+	left: -7px;
+	top: 3px;
+	font-size: 14px;
+}
+#path_label{
+	position: relative;
+	left: 1px;
+	cursor: pointer;
+}
+#color_label{
+	position: relative;
+	top: 3px;
+	cursor: pointer;
+}
+#control {
+    font-family: Arial,Helvetica,sans-serif;
+}
+#table_top10 {
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 100%;
+}
+.top_user {
+    color: #5297D2;
+    font-weight: bold;
+    width: 50px;
+}
+.top_score {
+    font-weight: bold;
+    width: 90px;
+}
+#your_score {
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: center;
+    width: 100%;
+}
+#survey_table {
+
+    float: left;
+}
+
+
+#survey label {
+	font-weight: bold;
+}
+
+#survey_textarea {
+	width: 96%;
+}
+
+#pohlavi{
+	position: relative;
+	left: 15px;
+}
+
+#hodnoceni{
+	position: relative;
+	left: -2px;
+}
+#login_welcome{
+	margin-top: 10px;
+}
+
+#reg_info{
+	margin-top: 10px;
+}
+
+#reg_close{
+	position: relative;
+	left: 175px;
+	top: 80px;
+}
+
+#log_out a{
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+#log_out{
+	margin-top: 0px;
+}
+
+#footer_text{
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: grey;
+}
+
+#logger{
+	margin-top: 10px;
+}
+
+#myclosebutton{
+	position: relative;
+	top: 50px;
+	left: -48px;
+}
+
+.color_cell{
+	cursor: pointer;
+}
+.path_cell{
+	cursor: pointer;
+}
+

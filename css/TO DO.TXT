@@ -1,0 +1,7 @@
+Mozilla stylesheet	logout border je svetlejsi kbuli stinovani
+			jinak OK
+opera			OK
+Safari			
+IE9			TOTAL rozsypano
+
+dodelat do index modul pro nacitani kterz prohlizec bezi - PHP skriptik

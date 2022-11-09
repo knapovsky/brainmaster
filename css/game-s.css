@@ -1,0 +1,409 @@
+@charset "utf-8";
+/* CSS Document 
+
+body {
+	background-color: #c0c0c0;
+}
+*/
+table {
+	/*border: 1px solid rgb(244,92,111);
+	background-color: rgb(254,221,225);*/
+	width: 360px;
+	height: 360px;
+	/*border-collapse:collapse;*/
+	margin: auto
+}
+ /*
+td {
+	border: 1px solid rgb(177,117,124);
+	text-align: center;
+	width: 36px;
+	height: 36px;
+	margin: 0px;
+	padding: 0px;
+}
+  */
+.levy_horni {
+	width: 36px;
+	height: 36px;
+	background-image: url('../img/levyhorni.png');
+}
+
+.levy_dolni {
+	width: 36px;
+	height: 36px;
+	background-image" url('../img/levydolni.png');
+}
+
+.pravy_horni {
+	width: 36px;
+	height: 36px;
+	background-image" url('../img/pravyhorni.png');
+}
+.pravy_dolni {
+	width: 36px;
+	height: 36px;
+	background-image" url('../img/pravydolni.png');
+}
+.stred {
+	width: 36px;
+	height: 36px;
+	background-image" url('../img/empty.png');
+}
+
+#gameWindow{
+	margin: 0px auto;
+	position: relative;
+	width: 360px;
+}
+#progressBarWrapper{
+	text-shadow: 2px 2px 2px #000;
+	margin: auto
+}
+#progressBarName{
+	position: absolute;
+	text-align: left;
+	left: 5px;
+	top: 8px;
+	width: 75px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#progressBarMessage{
+	position: absolute;
+	top: 8px;
+	text-align:center;
+	width: 195px;
+	left: 80px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#progressBarValue{
+	position: absolute;
+	top: 8px;
+	text-align: right;
+	width: 75px;
+	left: 280px;
+	text-shadow: 1px 1px 1px #000;
+}
+
+#body { 
+ 
+}
+
+#screen {
+  height:768px;
+
+}
+
+
+#main {
+  height:665px; 
+  width: 768px;
+  margin: auto
+}
+
+#header {
+  height: 55px;
+  width: 768px;
+  margin: auto
+}
+
+
+#log_out {
+  background-color: rgb(82,151,210);
+  border: 2px solid rgb(50,111,163);
+  border-bottom-right-radius: 15px;
+  -moz-border-bottom-right-radius: 15px; /* Firefox */
+  -webkit-border-bottom-right-radius: 15px; /* Safari and Chrome */
+  -o-border-bottom-right-radius: 15px; /* Opera */
+  
+  border-bottom-left-radius: 15px;
+  -moz-border-bottom-left-radius: 15px; /* Firefox */
+  -webkit-border-bottom-left-radius: 15px; /* Safari and Chrome */
+  -o-border-bottom-left-radius: 15px; /* Opera */
+  
+  height:49px; 
+  width: 155px;
+  position: relative;
+  float: right;
+  margin: -10px auto
+}
+
+
+#logo {
+  background-image: url('../img/logo.png');
+  position: relative;
+  /*border: 1px solid yellow;*/
+  height:93px; 
+  width: 386px;
+  margin: -10px auto auto auto
+}
+
+
+#game_template {
+  border: none; 
+  height: 490px; 
+  margin: auto
+}
+
+
+#left {
+  background-color: rgb(82,151,210);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  position: relative;
+  float: left;
+  height:480px; 
+  width: 155px; 
+}
+
+
+#center {
+  background-color: rgb(255,168,179);
+  border: 2px solid rgb(244,92,111);
+  border-radius: 20px;
+  -moz-border-radius: 20px; /* Firefox */
+  -webkit-border-radius: 20px; /* Safari and Chrome */
+  -o-border-radius: 20px; /* Opera */
+  height:480px; 
+  width: 425px;
+  position: relative;
+  float: left;
+  margin: 0px 10px 0px 10px
+}
+
+
+#right {
+  background-color: rgb(82,151,210);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  position: relative;
+  float: right;
+  height:480px; 
+  width: 155px; 
+}
+
+
+#footer {
+  border: 1px solid red;
+  clear: both;
+  position: relative;;
+  width: 767px;
+  height:60px
+}
+
+
+#game_type {
+  background-color: rgb(172,205,233);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  height: 195px;
+  width:  140px;
+  margin: auto
+}
+
+#path_fin {
+  width: 140px;
+  height:16px;
+}
+
+#path_ico {
+  width: 140px;
+  height:70px;
+  background-image: url('../img/path.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#color_chal {
+  width: 140px;
+  height:32px;
+}
+
+#color_ico {
+  width: 140px;
+  height:70px;
+  background-image: url('../img/color.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.radio_path {
+ float: left;
+ margin: 5px 0px 15px 12px
+}
+.radio_color {
+ float: left;
+ margin: 10px 0px 15px 12px
+}
+
+#difficulty {
+  background-color: rgb(172,205,233);
+  border: 2px solid rgb(50,111,163); 
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  height:220px;
+  width: 140px;
+  margin: auto
+}
+
+#easy {
+  width: 140px;
+  height: 70px;
+  background-image: url('../img/easy.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 6px auto auto auto
+}
+
+#normal {
+  width: 140px;
+  height: 70px;
+  background-image: url('../img/normal.png');
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+#insane {
+  width: 140px;
+  height: 70px;
+  background-image: url('../img/insane.png');
+  background-position: center;
+  background-repeat: no-repeat
+}
+
+.radio_dif {
+  float: left;
+  margin: 25px 0px 25px 12px;
+}
+
+#control {
+  background-color: rgb(172,205,233);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  height: 372px;
+  width:  140px;
+  margin: auto
+}
+
+
+#user {
+  background-color: rgb(172,205,233);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; /* Firefox */
+  -webkit-border-radius: 15px; /* Safari and Chrome */
+  -o-border-radius: 15px; /* Opera */
+  height: 43px;
+  width: 140px; 
+  margin: auto
+}
+#key_ico {
+  width: 140px;
+  height:150px;
+  background-image: url('../img/klavesky.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#mouse_ico {
+  width: 140px;
+  height:150px;
+  background-image: url('../img/myska.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#key_radio {
+  width: 140px;
+  height:16px;
+}
+
+#mouse_radio {
+  width: 140px;
+  height:16px;
+}
+
+.radio_key{
+ float: left;
+ margin: 6px 0px 15px 12px
+}
+
+.radio_mouse {
+ float: left;
+ margin: 6px 0px 15px 12px
+}
+  /*
+#game_info {
+  background-color: rgb(172,205,233);
+  border: 2px solid rgb(50,111,163);
+  border-radius: 15px;
+  -moz-border-radius: 15px; 
+  -webkit-border-radius: 15px; 
+  -o-border-radius: 15px;
+  position: relative;
+  height:60px; 
+  width: 360px;
+  margin:auto
+}   */
+  
+
+#choosed_game {
+  border: none;
+  height: 300px; 
+  margin: auto
+}
+
+h1, h2, h3{
+  font-family: "corbel", Arial;
+  color: black;
+  margin: auto
+}
+
+h1 {
+  font: bold 22px "corbel";
+  color: black;
+  text-align: center;
+  margin-top: -4px
+}
+
+h2 {
+  font: bold 18px "corbel";
+  color: black;
+  text-align: center
+}
+
+h3 {
+  font: bold 16px "corbel";
+  color: black;
+  text-align: center
+}
+
+
+h5 {
+  font: bold 18px "corbel";
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  margin: 10px auto
+}
+
+#newGame{
+	position: fixed;
+	left: 300px;
+	top: 150px;
+}
