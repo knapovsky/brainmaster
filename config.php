@@ -6,9 +6,9 @@
 
   define("SQL_DBNAME","brainmaster");
 
-  define("SQL_USERNAME","knapovsky");
+  define("SQL_USERNAME","");
 
-  define("SQL_PASSWORD","03f160AEae");
+  define("SQL_PASSWORD","");
 
 
   // Create connection
