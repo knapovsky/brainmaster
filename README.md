@@ -38,15 +38,15 @@ Dotazník byl koncipován tak, abychom si udělali kompletní obrázek o uživat
 
 V následující části dotazníku jsme se dozvěděli, co uživatel shledává důležitým a co ne. Na základě tohoto průzkumu jsme se napřiklad dozvěděli, že uživatelé neshledávají za důležité příhlášení pomocí OpenID, což bylo jedním z hlavních témat teamových diskuzí o aplikaci. Rozmýšleli jsme nad chatem v AJAXu do kterého by se dalo přihlásit pomocí OpenID, avšak pro účely tohoto projektu jsme to raději nedělali.
 
-![Brainmaster-3](http://images.knapovsky.com/dulezitost-parametru-webovych-aplikaci.png)]
+![Brainmaster-3](http://images.knapovsky.com/dulezitost-parametru-webovych-aplikaci.png)
 
 Tímto končil dotazník o uživatelově preferencích. Následoval kratký dotazník o našem projektu. Zajímali nás především informace pro optimalizaci aplikace a to, zda použité techniky a obtížnosti u her nejsou moc složité, zda-li je aplikace přehledná, a nebo zda je potřebná česká lokalizace.
 
-![Brainmaster-4](http://images.knapovsky.com/informace-o-webove-aplikaci-brain-master.png)]
+![Brainmaster-4](http://images.knapovsky.com/informace-o-webove-aplikaci-brain-master.png)
 
 Předposledním důležitým a možná i nejdůležitejším prvkem dotazníku byla otázka, zda-li je registrace do aplikace nutná. Tuto otázku bylo zapotřebí řešit ještě mnohokrát poté. Uživatel neshledává potřebným se do aplikace přihlašovat, nechce tedy ani prezentovat svoje výsledky pod vlastním jménem bez nutnosti pokaždé zadávát jméno na konci hry. K problematice s registrací se ještě vrátíme později. Zde je statistika z dotazníku:
 
-![Brainmaster-5](http://images.knapovsky.com/je-registrace-zbytecna.png)]
+![Brainmaster-5](http://images.knapovsky.com/je-registrace-zbytecna.png)
 
 Poslední kolonkou dotazníku bylo textové pole, kam mohli uživatelé napsat volně svůj názor. Ve směs nikdo nám nic nenapsal. Pár uživatelů zmínilo absenci zvuků, ostatní nám sdělili připadně pár detailů, které jsme záhy v aplikaci opravili.
 
@@ -66,20 +66,20 @@ Po tomto zjištění jsme myš nastavili jako výchozí prostředek pro ovládá
 
 Další sledovanou statistikou je počet přihlášení jako host nebo jako registrovaný uživatel. Jak můžete sami vidět, statistiky přihlášení absolutně nesouhlasí s tím, co uživatel vyplnil do dotazníku.Podle dotazníku je registrace spíše zbytečností. Uživatel však shledal dostatečně atraktivním se registrovat a přihlásit. Což nás velice potešilo. Je z toho zřejmý zájem o aplikaci jako takovou.
 
-![Brainmaster-8](http://images.knapovsky.com/prihlaseni.png)]
+![Brainmaster-8](http://images.knapovsky.com/prihlaseni.png)
 
 ## Statistiky interního průzkumu
 
 V interním průzkumu bylo zajímavé zhodnocení našeho GUI na stupnici od 1 do 10. Statistiky nás až překvapili. Evidentně byla většina uživatelů nadmíru spokojena s rozhraním Brain Master. Existovali ale i uživatelé, kteří nás ohodnotili nejnižší možnou známkou. Proč tomu tak bylo, to se bohužel nikdy nedozvíme – Ti, kdož takto odpověděli nám totiž nenapsali nic konkrétnějšího a nepodložili tak svůj názor.
 
-![Brainmaster-9](http://images.knapovsky.com/statistika-zobrazeni-pruzkumu.png)]
+![Brainmaster-9](http://images.knapovsky.com/statistika-zobrazeni-pruzkumu.png)
 Podíváme-li se na graf po levé straně, zjistíme, že 62% uživatelů na stránce s nejlepšími výsledky sice vidí odkaz na průzkum, nicméně ho neshledá důležitým a vrací se zpět na hlavní stránku se hrou. Ze zbylých 38% uživatelů, jež kliknuli na zobrazení průzkumu, 32% ukončilo průzkum a vrátilo se na hlavní stránku. Zbylá většina průzkum skutečně vyplnila a úspěšně odeslala. Graf vyjadřující tuto statistiku je na další stránce.
 
-![Brainmaster-10](http://images.knapovsky.com/statistika-chovani-pri-vyplnovani-pruzkumu.png)]
+![Brainmaster-10](http://images.knapovsky.com/statistika-chovani-pri-vyplnovani-pruzkumu.png)
 
 V interním průzkumu bylo zajímavé zhodnocení našeho GUI na stupnici od 1 do 10. Statistiky nás až překvapili. Evidentně byla většina uživatelů nadmíru spokojena s rozhraním Brain Master. Existovali ale i uživatelé, kteří nás ohodnotili nejnižší možnou známkou. Proč tomu tak bylo, to se bohužel nikdy nedozvíme – Ti, kdož takto odpověděli nám totiž nenapsali nic konkrétnějšího a nepodložili tak svůj názor.
 
-![Brainmaster-11](http://images.knapovsky.com/hodnoceni-gui.png)]
+![Brainmaster-11](http://images.knapovsky.com/hodnoceni-gui.png)
 
 ## Zajímavosti
 
