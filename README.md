@@ -1,5 +1,13 @@
 # Brainmaster
 
+> **Security notice:** This is historical coursework/legacy code. It is not maintained and must not be deployed publicly without a full security rewrite.
+>
+> Known issues in the original code included legacy PHP APIs, SQL queries built from request data, obsolete password hashing, and committed sample database/log artifacts. Current repository data is sanitized, but git history may still contain old data.
+
+## Status
+
+Archived / historical reference only.
+
 ![Brainmaster](http://images.knapovsky.com/brainmaster.png)
 
 Projekt běží na [brainmaster.knapovsky.com](https://brainmaster.knapovsky.com)

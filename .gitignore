@@ -1,2 +1,15 @@
 .DS_Store
 .listing
+.env
+.env.*
+!.env.example
+*.sql
+!db_init.example.sql
+*.sqlite
+*.db
+*dump*
+*backup*
+logs/
+stats/
+*.log
+webalizer.*
